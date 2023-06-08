@@ -1,13 +1,13 @@
 {
-  "index": "Airpen",
+  "introduction": "Airpen",
   // "another": "Another Page",
   // "advanced": "Advanced (A Folder)",
-  "about": {
-    "title": "About",
-    "type": "page"
-  },
   "manifesto": {
     "title": "Manifesto",
+    "type": "page"
+  },
+  "about": {
+    "title": "About",
     "type": "page"
   },
   "contact": {
