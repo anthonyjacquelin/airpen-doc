@@ -1,7 +1,5 @@
 {
-  "introduction": "Airpen",
-  // "another": "Another Page",
-  // "advanced": "Advanced (A Folder)",
+  "index": "Introduction",
   "manifesto": {
     "title": "Manifesto",
     "type": "page"
