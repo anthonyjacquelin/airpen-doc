@@ -1,0 +1,81 @@
+import FormPlugin from "@/components/email-catcher.tsx";
+import Image from "next/image";
+import { Callout } from 'nextra/components'
+ 
+# How to grow your subscribers base ?
+
+There are many ways to grow your subscribers base, in this page we are going to show you the most effective ones.
+
+## Add a subscription form to your publications
+
+We created a custom Subscribe Form plugin that you can add to your publications to collect emails from your readers.
+
+<div
+  style={{
+    margin: "20px",
+  }}
+>
+  <FormPlugin onSuccess={() => alert("hello)")} />
+</div>
+
+To add this plugin to your publication, just hit `Tab` or click on the `+` button and select **Subscribe Form**.
+
+<br />
+<Image
+  src="/images/grow-your-base/subscribe-form.png"
+  width="1200"
+  height="600"
+  alt="airpen subscribe form"
+/>
+
+Once someone subscribes to your Form, the reader receive an email to confirm his subscription which needs to be confirmed in order to be added to your subscribers list on your profile page.
+
+You can track your subscribers growth on your profile page, in the **Subscribers** section.
+
+<br />
+<Image
+  src="/images/grow-your-base/subscribers-table.jpg"
+  width="1200"
+  height="600"
+  alt="airpen subscribe form"
+/>
+
+## Import your email list
+
+If you already have an email list, you can import it to your profile page.
+
+To do so, go to your profile page, click on the **Subscribers** section and click on the **+ Add Subscribers** button.
+
+Only CSV files are supported for now.
+
+<Callout type="warning" emoji="⚠️">
+  The first row, first column of your CSV file should contain **email** in order
+  to be recognized by our system.
+</Callout>
+<br />
+<Image
+  src="/images/grow-your-base/drag-drop.jpg"
+  width="1200"
+  height="600"
+  alt="airpen subscribe form"
+/>
+
+All the emails in your CSV file will be added to your subscribers list and will receive an email to confirm their subscription.
+
+## Share your publications
+
+Sharing your publications on social media is a great way to grow your subscribers base.
+
+You can share your publications on Twitter, Facebook, LinkedIn, Reddit, Hacker News, and many more as Airpen suports Open Graph and Twitter Cards.
+
+Your publications will look like this when shared on social media:
+
+<br />
+
+<Image
+  src="/images/grow-your-base/twitter-card.jpg"
+  width="1200"
+  height="600"
+  alt="airpen subscribe form"
+/>
+
