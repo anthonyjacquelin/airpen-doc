@@ -5,15 +5,29 @@ const config: DocsThemeConfig = {
   useNextSeoProps() {
     return {
       titleTemplate: "%s – Airpen documentation",
+      description:
+        "Airpen documentation - Read, write and own your content while you grow and monetize your audience. Airpen is a data driven publishing platform where authors have the tools and control they need to confidently create and share content and be rewarded for it",
+      openGraph: {
+        url: "https://docs.airpen.cc",
+        title: "Airpen documentation",
+        description:
+          "Airpen documentation - Read, write and own your content while you grow and monetize your audience. Airpen is a data driven publishing platform where authors have the tools and control they need to confidently create and share content and be rewarded for it",
+        images: [{ url: "https://airpen.cc/images/airpenBanner.png" }],
+      },
+      twitter: {
+        cardType: "summary_large_image",
+        site: "@airpencc",
+        title: "Airpen documentation",
+        description:
+          "Airpen documentation - Read, write and own your content while you grow and monetize your audience. Airpen is a data driven publishing platform where authors have the tools and control they need to confidently create and share content and be rewarded for it",
+        image: "https://airpen.cc/images/airpenBanner.png",
+      },
     };
   },
   sidebar: {
     toggleButton: true,
   },
-  head:(
-    <link rel="icon" href="/images/favicon.png"></link>
-    
-  ),
+  head: <link rel="icon" href="/images/favicon.png"></link>,
   logo: (
     <>
       <svg
