@@ -1,6 +1,7 @@
 {
 
   "index": "What is Airpen?",
+  "manifesto": "Manifesto",
   "airpen-ai": {
     "title": "Airpen AI"
   },
@@ -15,9 +16,6 @@
   },
   "monetize-your-content": {
     "title": "Monetize your content"
-  },
-  "about": {
-    "title": "About"
   },
   "roadmap": {
     "title": "Roadmap"

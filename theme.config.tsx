@@ -10,7 +10,10 @@ const config: DocsThemeConfig = {
   sidebar: {
     toggleButton: true,
   },
-
+  head:(
+    <link rel="icon" href="/images/favicon.png"></link>
+    
+  ),
   logo: (
     <>
       <svg
