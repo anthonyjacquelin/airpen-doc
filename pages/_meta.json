@@ -1,5 +1,4 @@
 {
-
   "index": "What is Airpen?",
   "manifesto": "Manifesto",
   "airpen-ai": {
@@ -19,5 +18,10 @@
   },
   "roadmap": {
     "title": "Roadmap"
+  },
+  "changelogs": {
+    "title": "Changelogs",
+    "href": "https://www.notion.so/airpencc/Changelogs-47cc3ff2eed34ede8515f4281a166e1b?pvs=4",
+    "newWindow": true
   }
 }
